@@ -15,11 +15,11 @@ import nz.net.ultraq.thymeleaf.LayoutDialect;
 @ConfigurationPropertiesScan
 public class App {
 
-	//https://github.com/ultraq/thymeleaf-layout-dialect
-	@Bean
-	public LayoutDialect layoutDialect() {
-		return new LayoutDialect();
-	}
+    //https://github.com/ultraq/thymeleaf-layout-dialect
+    @Bean
+    LayoutDialect layoutDialect() {
+        return new LayoutDialect();
+    }
 
 	public static void main(String[] args) {
 		SpringApplication.run(App.class, args);
