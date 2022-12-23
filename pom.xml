@@ -11,7 +11,7 @@
     <groupId>rlsi.website.sample</groupId>
     <artifactId>website_sample</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>htmx-demo</name>
+    <name>website_sample</name>
     <description>Demonstration of htmx and Spring Boot</description>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
